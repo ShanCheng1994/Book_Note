@@ -54,3 +54,19 @@ Despite these weakness, for several reasons fixed income professionals must unde
 3. much of the intuition gained from a full understanding of these measures carries over to more general measures of price sensitivity.
 
 ### Yield-Based DV01 and duration
+![price yield-based](fig/DV01_yield.png)
+where y is the yield. We can take the negative of the derivative of the two price expressions, dividing by 10000, then we will have the yield-based DV01.
+
+![DV01 druration yield-based](fig/yield_duration_dv01.png)
+These special cases are also known in the industry as modified or adjusted duration.
+duration can be viewed as a weighted-sum of times to receipt, with each weight equal to the corresponding present value divided by the total of the present values, i.e., the price. The duration hence can be measured in years.
+
+**Longer-dated** cash flows are more sensitive to interest rate changes because they are discounted over longer periods of time.
+
+***Important limitation***:
+Constructing a hedge so that the yield-based DV01 of a bond bought equals the yield based DV01 of a bond sold will work as intended only if the two bond yields change by the same amount. (In fact, yield is security specified amount which is different for different securities, so may be their changing along the time). We need to check the validity of the assumption in order to make sure the efficacy of the hedge method.
+
+Some remarks:
+1. any given maturity duration falls as coupon increases. The intuition behind this fact is that higher-coupon bonds have a greater fraction of their value paid earlier. The higher the coupon, the larger the weights on the duration terms of early years relative to those of later years. Hence, higher-coupon bonds are effectively shorter-term bonds and therefore have lower durations.
+
+2. Duration increases with maturity.
