@@ -70,3 +70,7 @@ Some remarks:
 1. any given maturity duration falls as coupon increases. The intuition behind this fact is that higher-coupon bonds have a greater fraction of their value paid earlier. The higher the coupon, the larger the weights on the duration terms of early years relative to those of later years. Hence, higher-coupon bonds are effectively shorter-term bonds and therefore have lower durations.
 
 2. Duration increases with maturity.
+
+
+### Application: The Barbell versus the bullet
+Barbell portfolio: a combination of a longer-term bond and a short-term bond. Barbell has the same duration as bullet but a bigger convexity. We will be more exposed to volatility when we use barbell portfolio. Disadvantage is that the weighted yield of the barbell will be smaller than bullet one.
