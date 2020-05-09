@@ -34,6 +34,4 @@ Duration hedging is local that is valid in a particular neighbourhood of rates. 
 Short convexity: the hedged position loses whether rates rises or fall because the option is more convex than the bond
 A long convexity is long volatility while a short convexity position is short volatility.
 ![IMAGE](fig/test.png)
-```math
-a^2+b^2
-```
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
