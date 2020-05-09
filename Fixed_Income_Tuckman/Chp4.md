@@ -26,10 +26,11 @@ Duration measures the percentage change in the value of a security for a unit ch
 D= -1/p*dp/dy .
 
 ## Convexity
-As interest rate sensitivity changes with the level of rates, we use convexity to measure this sensitivity. 
+As interest rate sensitivity changes with the level of rates, we use convexity to measure this sensitivity.
 C = 1/p*d^2p/dy^2 which is related to the second order derivative of the price-rate function.
 
 ## Hedging example
 Duration hedging is local that is valid in a particular neighbourhood of rates. As rates move, the quality of the hedge deteriorates.
 Short convexity: the hedged position loses whether rates rises or fall because the option is more convex than the bond
 A long convexity is long volatility while a short convexity position is short volatility.
+![Image of Yaktocat](https://github.com/ShanCheng1994/Book_Note/tree/master/Fixed_Income_Tuckman/fig/test.png)
