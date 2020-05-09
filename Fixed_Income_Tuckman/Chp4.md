@@ -33,5 +33,6 @@ C = 1/p*d^2p/dy^2 which is related to the second order derivative of the price-r
 Duration hedging is local that is valid in a particular neighbourhood of rates. As rates move, the quality of the hedge deteriorates.
 Short convexity: the hedged position loses whether rates rises or fall because the option is more convex than the bond
 A long convexity is long volatility while a short convexity position is short volatility.
+
 ![Image of Yaktocat]
 (https://github.com/ShanCheng1994/Book_Note/blob/master/Fixed_Income_Tuckman/fig/test.png?raw=true)
