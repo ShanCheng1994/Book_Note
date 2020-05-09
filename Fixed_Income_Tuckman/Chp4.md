@@ -47,6 +47,7 @@ It is generally true that duration term is much larger than convexity term in th
 Yield-based means that instead of price-rate function, we use price-yield function. Then we find the sensitivity of price related to yield. These measures have two important weakness:
 1. Only defined for securities with fixed cash flows
 2. Their use implicitly assumes parallel shifts in yield
+
 Despite these weakness, for several reasons fixed income professionals must understand these measures:
 1. simple to compute, easy to understand and in many situation, reasonable to use
 2. widely used in the financial industry
