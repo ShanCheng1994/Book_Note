@@ -35,4 +35,4 @@ Short convexity: the hedged position loses whether rates rises or fall because t
 A long convexity is long volatility while a short convexity position is short volatility.
 
 ![Image of Yaktocat]
-(https://github.com/ShanCheng1994/Book_Note/blob/master/Fixed_Income_Tuckman/fig/test.png?raw=true)
+(https://raw.githubusercontent.com/ShanCheng1994/Book_Note/master/Fixed_Income_Tuckman/fig/test.png)
