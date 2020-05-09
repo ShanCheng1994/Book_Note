@@ -33,6 +33,23 @@ C = 1/p*d^2p/dy^2 which is related to the second order derivative of the price-r
 Duration hedging is local that is valid in a particular neighbourhood of rates. As rates move, the quality of the hedge deteriorates.
 Short convexity: the hedged position loses whether rates rises or fall because the option is more convex than the bond
 A long convexity is long volatility while a short convexity position is short volatility.
-![IMAGE](fig/test.png)
 
-$ \sum_{\forall i}{x_i^{2}} $
+## Estimating price changes and returns with DV01,Duration and convexity
+A second-order Taylor approximation of the price-rate function:
+dp = dp/dy*dy+1/2d^2p/dy^2*dy^2 = > dp/p = -Ddy+1/2Cdy^2
+It is generally true that duration term is much larger than convexity term in the above approximation.
+
+- The convexity of portfolio is an exposure to volatility. In the investment context, choosing among securities with the same duration expresses a view on interest rate volatility. Choosing a very positively convex security would essentially be choosing to be long volatility and vice-versa.
+- Asset-liability managers can achieve greater protection against interest rate changes by hedging duration and convexity instead of duration alone.(We need to hedge with two instruments with different convexity and duration).
+- Duration and convexity of a set of securities can be computed by using the additivity of the calculation.
+
+## Yield-based risk Metrics
+Yield-based means that instead of price-rate function, we use price-yield function. Then we find the sensitivity of price related to yield. These measures have two important weakness:
+1. Only defined for securities with fixed cash flows
+2. Their use implicitly assumes parallel shifts in yield
+Despite these weakness, for several reasons fixed income professionals must understand these measures:
+1. simple to compute, easy to understand and in many situation, reasonable to use
+2. widely used in the financial industry
+3. much of the intuition gained from a full understanding of these measures carries over to more general measures of price sensitivity.
+
+### Yield-Based DV01 and duration
